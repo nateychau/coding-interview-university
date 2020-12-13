@@ -465,7 +465,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Prerequisite Knowledge
 
-- [ ] **Learn C**
+- [x] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying
     - [ ] [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
@@ -723,13 +723,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
+        - [x] insert
+        - [x] sift_up - needed for insert
+        - [x] get_max - returns the max item, without removing it
+        - [x] get_size() - return number of elements stored
+        - [x] is_empty() - returns true if heap contains no elements
+        - [x] extract_max - returns the max item, removing it
+        - [x] sift_down - needed for extract_max
         - [ ] remove(i) - removes item at index x
         - [ ] heapify - create a heap from an array of elements, needed for heap_sort
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap or min heap
